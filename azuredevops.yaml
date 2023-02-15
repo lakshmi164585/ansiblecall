@@ -1,0 +1,7 @@
+--- 
+pool: 
+  name: Default
+trigger:
+  main
+steps: 
+  - script: ansible-playbook -i host jdk.yaml
