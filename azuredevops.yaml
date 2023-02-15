@@ -2,6 +2,6 @@
 pool: 
   name: Default
 trigger:
-  main
+  - main
 steps: 
   - script: ansible-playbook -i host jdk.yaml
